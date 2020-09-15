@@ -1,0 +1,218 @@
+
+
+body {
+  background-color: white;
+}
+
+#wrapper {
+  width: 96%;
+  height: 100%;
+  overflow: hidden;
+  border: 0px solid #000;
+  margin: 10px auto;
+  margin-top: 0px;
+  padding-top: 20vh;
+}
+
+.main-content {
+  width: 96%;
+  height: 20%;
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+  padding: 100px 5px;
+  margin: auto;
+  border-radius: 2%;
+
+}
+
+.header {
+  border: 0px solid #000;
+  margin-bottom: 30px;
+  margin: auto;
+  
+}
+
+.header img {
+  height: 50px;
+  width: 175px;
+  margin-left: 25%;
+  position: relative;
+  
+}
+
+.input-5 {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.sub-content {
+  width: 95%;
+  height: 5%;
+  border: 1px solid #e6e6e6;
+  padding: 10px 25px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 4%;
+  z-index: 1000;
+}
+.btn-login {
+  width: 100%;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.overlap-text a {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #003569;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Overpass Mono', monospace;
+  letter-spacing: -1px;
+}
+
+.s-part {
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-weight: normal;
+
+}
+
+.s-part a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3897f0;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-weight: normal;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+
+  }
+
+
+@media only screen and (min-width: 450px) {
+  .input-5{   
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  .container{
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+    #wrapper {
+    width: 600px;
+    height: 80%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-top: 150px;
+  }
+  .main-content {
+    width: 500px;
+    height: 40%;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 100px 5px;
+    margin: auto;
+
+  }
+  .header img {
+    height: 50px;
+    width: 175px;
+    margin-left: 170px;
+    margin-bottom: 60px;
+    position: relative;
+    
+  }
+  .sub-content {
+    width:513px;
+    height: 5%;
+    border: 1px solid #e6e6e6;
+    padding: 10px 0px;
+    background-color: #fff;
+    margin: auto;
+  }
+  .btn-login {
+    width: 80%;
+    margin-left: 10%;
+
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .overlap-text a {
+  position: absolute;
+  top: 8px;
+  right: 55px;
+  color: #003569;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Overpass Mono', monospace;
+  letter-spacing: -1px;
+}
+
+  .s-part {
+    text-align: center;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .s-part a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+  }
+
+}
+
+.overlap-text {
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
